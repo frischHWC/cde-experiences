@@ -1,4 +1,4 @@
-# CDW Experience
+# CDE Experience
 
 Goal of this repository is to provide some few easy examples of demo to run on CDE.
 
