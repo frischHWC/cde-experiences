@@ -1,10 +1,6 @@
 from pyspark.sql import SparkSession, DataFrame
-from pyspark.sql.types import Row, StructField, StructType, StringType, IntegerType, BooleanType, DoubleType
-from pyspark.sql.functions import col, udf
-from pyspark.ml.feature import VectorAssembler
-from pyspark.ml.feature import StringIndexer
-from pyspark.ml.regression import LinearRegression
-from pyspark.ml.classification import DecisionTreeClassifier
+from pyspark.sql.types import Row
+from pyspark.sql.functions import col
 
 
 def main(spark):  
