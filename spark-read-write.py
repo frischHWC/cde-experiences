@@ -36,7 +36,7 @@ def main(spark):
   df_france_speed_sensors_data.show()
   
   # Finally write this data to HDFS
-  df_france_speed_sensors_data.write\
+  df_france_speed_sensors_data.write.mode("append")\
   .parquet("/user/datagen/hdfs/industry/sensor_french_speed_data/")
   
   
