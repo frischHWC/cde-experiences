@@ -2,10 +2,21 @@
 
 Goal of this repository is to provide some few easy examples of demo to run on CDE.
 
-It relies on Data generated previously be Datagen.
+It relies on Data generated be Datagen.
 
 
-## Plants
+
+## Data Generation
+
+To generate data, there are two ways:
+
+1. Use the script link:gen_data.sh[gen_data.sh] to generate data. You will need to change variables at the top of the script to match your environment. 
+    __WARNING: install jq before running the script, example: yum install jq__
+    
+1. Do it manually by following below instructions to generate data using swagger (or directly API) of Datagen (a service deployed in your base cluster).
+
+
+### Plants
 
 Use Datagen to generate data in _hdfs_parquet_ with following parameters:
 
@@ -17,7 +28,7 @@ Use Datagen to generate data in _hdfs_parquet_ with following parameters:
 __N.B.: You can change the model to use another country than UK & France, by replacing or adding something among USA, Germany, Spain, Italy, Japan, India, China, Tunisia, Israel etc... __
 
 
-## Sensors
+### Sensors
 
 Use Datagen to generate data in _hdfs_parquet_ with following parameters:
 
@@ -27,7 +38,7 @@ Use Datagen to generate data in _hdfs_parquet_ with following parameters:
 - Threads: 10
 
 
-## Sensors Data
+### Sensors Data
 
 Use Datagen to generate data in _hdfs_parquet_ with following parameters:
 
