@@ -15,7 +15,7 @@ def main(spark):
   df_france_plants = df_plants.filter(col("country")=='France')
 
   # Finally write this data to HDFS
-  df_france_plants.write\
+  df_france_plants.write.mode("append")\
   .parquet("/user/francois/french_plants/")
   
   
