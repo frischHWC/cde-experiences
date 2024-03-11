@@ -19,7 +19,7 @@
 #!/usr/bin/env bash
 
 # DATAGEN_URL should be in this form: https://bootcamp-1.vpc.cloudera.com:4242
-export DATAGEN_URL=""
+export DATAGEN_URL="https://localhost:4242"
 export DATAGEN_USER="admin"
 export DATAGEN_PASSWORD="admin"
 
