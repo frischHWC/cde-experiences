@@ -1,4 +1,5 @@
 {
+  "model_name": "plant-model-cde",
   "Fields": [
     {
       "name": "plant_id",
